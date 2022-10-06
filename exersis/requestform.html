@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Request Form</title>
+</head>
+<style>
+    body {
+        background-image: url("omni.webp");
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+    form{
+        
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(red, green, blue, alpha);
+        }
+</style>
+<body>
+    <h1></h1>
+    <form action="">
+    <h1> Service Request Form</h1>
+    <form action="">
+        <p>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" size="60">
+
+        </p>
+        <p>
+            <label for="lname">Lirst Name</label>
+            <input type="text" name="lname" id="lname"size="60">
+        </p>
+        <p>
+            <label for="emailAdd">Email Adrress</label>
+            <input type="emailAdd" name="emailAdd" id="emailAdd" size="60"></input>
+        </p>
+        <p>
+            <input type="radio" name="eType" id="eType">
+            <label for="eType">Onsite</label>
+            <input type="radio" name="eType" id="eType">
+            <label for="eType">Work From Home</label>
+        </p>
+        <p>
+            <label for="text">Location: <br> For onsite please state your Workstation No. Department, Floor and Building. <br> For work from home, please complete your adress and include a landmark nearest to your location.</label>
+            <input type="text" name="text" id="text" size="90"></input>
+        </p>
+        <p>
+            <label for="bNum">Service Request Type:</label required>
+            <select name="bNum" id="bNum">
+                <option value="b1">Desktop/Laptop Setup</option>
+                <option value="b2">Desktop/Laptop Support</option>
+                <option value="b3">Desktop/Laptop Maintenance</option>
+                <option value="b1">Installation Software</option>
+                <option value="b1">Software Support</option>
+                <option value="b1">Computer Peripheral Setup</option>
+                <option value="b1">Computer Peripheral Troubleshooting</option>
+                <option value="b1">Computer Peripheral Maintenance</option> 
+            </select>
+        </p>
+        <p>
+            <p>
+                <h4>Request Description:</h4>
+                <label for="comments"></label>
+                <textarea name="comments" id="" cols="30" rows="10" placeholder="Explain your service request as details as possible."
+                    placeholder="Explain your service request as details as possible" required></textarea>
+            </p>
+        </p>
+        <p> 
+            Upload a picture/screenshot for reference.<input type="File">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear"></p>
+        </p>
+</body>
+</form>
+</html>

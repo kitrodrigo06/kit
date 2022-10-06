@@ -2,44 +2,62 @@
 <html lang="en">
 
 <head>
-    <style>
-        body {
 
-            background-image: url("back.jpg");
-            background-size: 100;
-            background-size: cover;
-            background-repeat: no-repeat;
 
-        }
-    </style>
+
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In</title>
 </head>
 
-<body>
-    
-   <div>
+<style>
+    body {
+        background-image: url("inv.gif");
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
 
-   
-    <h1 style="color:skyblue; text-align:center; font-style: ;">Please log in your account</h1>
+
+    }
+
+    form {
+        background-color: yellowgreen;
+        max-width: 300px;
+        margin: 50px auto;
+        padding: 30px 20px;
+        box-shadow: 2px 5px 10px rgba(red, green, blue, alpha);
+
+    }
+</style>
+
+<body>
     <form action="thankyou.html">
-    </div>
-        <p style="text-align: center;">
-            <label for="user">Username</label>
-            <input type="user" id="user" name="username">
+
+        <p>
+
+
+        <h1>Please log in your account</h1>
+
         </p>
-        <p style="text-align: center;">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
+        <p>
+
+            <label for="user">Username <br></label>
+            <input type="user" id="user" name="username" required>
         </p>
-        <p style="text-align:center;">
+        <p>
+            <label for="password"> Password <br> </label>
+            <input type="password" id="password" name="password" required>
+        </p>
+        <p>
             <button type="reset">Clear</button>
             <button type="submit">Log In</button>
 
-    
-  
+
+
         </p>
         </p>
     </form>

@@ -1,0 +1,87 @@
+.hi{
+    color: brown;
+}
+/** ID selector*/
+
+#title-1 {
+    color: green;
+}
+
+/* class selector*/
+
+.title-2{
+    color: aquamarine;
+   text-align: center;
+}
+
+input[type=text]{
+    background-color: aquamarine;
+}
+
+/*universal selector*/
+*{
+    font font-family: lobster', cursive; 
+}
+
+/* Combinator Selector */
+
+/* descendant selector - select or targets all elements that macthces specified element
+Syntax: first element child element {
+    property value
+
+}
+*/
+
+div p{
+    background-color: red;
+}
+/* child selector- select or target all elements that are all children of a specified element */
+div > p{
+    background-color: chocolate;
+/* adjacent sibling selector (+)
+it select/targets an element that is directly after the first selector
+*/
+}
+
+p + p{
+    background-color: maroon;
+}
+
+div + p{
+    background-color: pink;
+}
+/* general sibling selector(˜ ) */
+
+p ˜  p{
+    background-color: yellow
+ 
+}
+/* medium devices (landscape tablet, 768 px and up*) */
+/* {
+    @media only screen and(min-width: 500px){
+        .screen {background-color: blue;}
+} */
+
+/* {
+@media only screen and(min-width: 900px0){
+    .screen {background-color: blue;}
+} */
+
+/* psuedo class
+selector: psuedo-class{property:value} */
+
+/* unlisted Link */
+a:link{
+    color: red;
+/* visited link */
+}
+a:visited {
+    color: green;
+}
+a:hover{
+    color: orange;
+}
+/* selected link */
+:active{
+    color: bisque;
+}

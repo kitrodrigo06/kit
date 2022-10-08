@@ -27,10 +27,12 @@
 #js img{
     width:15%;
     height:10%;
-    border-radius: 1px;
+    border-radius: 50%;
+    clip-path: circle();
     margin-block-start: auto;
+    border-style: ;
 }
-ul  {
+ul > div {
     letter-spacing: 4px;
     
 }

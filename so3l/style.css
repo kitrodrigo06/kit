@@ -1,0 +1,36 @@
+.colorx{
+    color: rgb(240, 75, 75);
+}
+.p-color{
+    color: rgb(226, 170, 102);
+}
+.colory{
+    color:rgb(191, 239, 94);
+}
+
+.nope{
+    background: yellowgreen;
+}
+
+#verticle-line{
+    width: 1px;
+    height: 1000%;
+    background: 500px;
+}
+.divider{
+    width: 10000px;
+    height: 3px;
+    background-color: black;
+    display: inline-block;
+}
+
+#js img{
+    width:15%;
+    height:10%;
+    border-radius: 1px;
+    margin-block-start: auto;
+}
+ul  {
+    letter-spacing: 4px;
+    
+}

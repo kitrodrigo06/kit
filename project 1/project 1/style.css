@@ -1,0 +1,99 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    height: -webkit-fill-available;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0% auto;
+    height: 100vh;
+    background-color: grey;
+    height: -webkit-fill-available;
+    font-family: "Trirong", serif;
+    
+
+}
+
+html{
+    height: -webkit-fill-available;
+}
+.card{
+    background-color: grey;
+}
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: gray;
+
+    color: white;
+}
+
+.text{
+    text-align: center;
+}
+
+.textinf{
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+
+}
+
+.img-fluid{
+    size: 200px;
+}
+
+h3{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.button {
+    background-color: #555555;
+}
+
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    position: absolute
+
+}
+
+.fom{
+    margin: 35px;
+}
+.input-field{
+width: 400px;
+height: 40px;
+margin-top: 20px;
+padding-left: 10px;
+border: 1px solid #777;
+border-radius: 14px;
+outline: none;
+}
+
+.submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.non{
+    text-align: center;
+}
+
